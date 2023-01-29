@@ -1,0 +1,29 @@
+﻿img{
+    width: 100%
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: large;
+}
+
+input {
+    width: 40%;
+    float: right;
+    clear: both;
+}
+
+#output{
+    font-size: 100px;
+    color: red;
+    text-align: right;
+}
+
+#calc{
+    outline-style: groove;
+    padding: 10px;
+    border-radius: 5px;
+}

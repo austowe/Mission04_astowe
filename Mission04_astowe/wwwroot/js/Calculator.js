@@ -1,6 +1,8 @@
 ﻿$("#calcButton").click(function () {
-    let percentage = ($("#assignments").val() * 0.5) + ($("#intex").val() * 0.2) + ($("#final").val() * 0.2) + ($("#midterm").val() * 0.2) + ($("#quiz").val() * 0.2) + ($("#project").val() * 0.2);
+    //get values and calculate percentage 
+    let percentage = ($("#assignments").val() * 0.5) + ($("#intex").val() * 0.1) + ($("#final").val() * 0.1) + ($("#midterm").val() * 0.1) + ($("#quiz").val() * 0.1) + ($("#project").val() * 0.1);
     let letter = "";
+    //get grade letter
     if (percentage >= 94) {
         letter = "A";
     }
@@ -37,5 +39,6 @@
     else {
         letter = "E";
     }
+    //output to html
     $("#output").html("&ensp;" + letter);
 })

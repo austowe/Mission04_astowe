@@ -23,6 +23,7 @@ namespace Mission04_astowe
         {
             app.UseDefaultFiles();
             app.UseStaticFiles();
+            //test
         }
     }
 }

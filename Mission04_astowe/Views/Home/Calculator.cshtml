@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+    
+
+    <h2>Grade Calculator</h2>
+    <!--Form for calculator-->
+    <form method="post">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-3" id="calc">
+                <br />
+                <label>Assignments: </label>
+                <input type="number" step="1" placeholder="%" required min="0" max="100" id="assignments" name="assignments"/>
+                <br />
+                <label>Group Project: </label>
+                <input type="number" step="1" placeholder="%" required min="0" max="100" id="project" name="project"/>
+                <br />
+                <label>Quizzes: </label>
+                <input type="number" step="1" placeholder="%" required min="0" max="100" id="quiz" name="quiz"/>
+                <br />
+                <label>Midterm Exam: </label>
+                <input type="number" step="1" placeholder="%" required min="0" max="100" id="midterm" name="midterm"/>
+                <br />
+                <label>Final Exam: </label>
+                <input type="number" step="1" placeholder="%" required min="0" max="100" id="final" name="final"/>
+                <br />
+                <label>INTEX: </label>
+                <input type="number" step="1" placeholder="%" required min="0" max="100" id="intex" name="intex"/>
+                <br /><br />
+                <button id="calcButton" type="submit">Calculate</button>
+            </div>
+            <div class="col-md-5">
+                <h4>Calculated grade: </h4>
+                <span id="output"></span>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </form>

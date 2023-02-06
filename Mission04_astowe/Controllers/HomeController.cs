@@ -12,5 +12,17 @@ namespace Mission04_astowe.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Calculator()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Calculator()
+        {
+            return View();
+        }
     }
 }

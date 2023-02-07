@@ -40,5 +40,5 @@
         letter = "E";
     }
     //output to html
-    alert("&ensp;" + letter);
+    alert(letter);
 })

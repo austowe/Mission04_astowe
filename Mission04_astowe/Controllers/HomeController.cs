@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mission04_astowe.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,7 @@ namespace Mission04_astowe.Controllers
         }
 
         [HttpPost]
-        public IActionResult Calculator()
+        public IActionResult Calculator(CalculatorModel model)
         {
             return View();
         }
